@@ -1,0 +1,38 @@
+# Environments
+fusion_env/
+fusion_env_cuda12/
+__pycache__/
+*.pyc
+
+# Model weights & binaries (too large / regenerable)
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.bin
+
+# Embeddings (regenerable from scripts)
+*.npy
+
+# Training checkpoints
+**/checkpoint-*/
+**/pubmedbert_ft/
+**/pubmedbert_best/
+
+# Data
+tooth_crops/
+*.tar.gz
+*.zip
+
+# Large run folders
+runs/
+
+# Logs
+*.log
+
+# Duplicates / OS
+*" ("*
+.DS_Store
+
+# Segmentation dataset (images + labels — regenerable)
+seg_data/

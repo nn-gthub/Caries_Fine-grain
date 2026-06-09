@@ -1,0 +1,9 @@
+label,Weighted F1,Kappa,F1_Normal,F1_Pre-caries,F1_Caries,F1_Decolor
+Base Layer: Image only,0.4655,0.2665,0.325,0.4938,0.4746,0.4952
+Base + Text (structured),0.9184,0.8883,0.9899,0.8879,0.9348,0.9026
++ Stepwise feature: stain,0.9183,0.8883,0.98,0.8927,0.9399,0.8969
++ Stepwise feature: defect,0.9466,0.9268,0.9899,0.9211,1.0,0.9055
++ Stepwise feature: brown,0.9523,0.9346,0.9899,0.9292,1.0,0.9163
++ Stepwise feature: chalky,0.9523,0.9346,0.9899,0.9292,1.0,0.9163
++ Stepwise feature: fill,0.9523,0.9346,0.9899,0.9292,1.0,0.9163
++ Stepwise feature: wear,0.9523,0.9346,0.9899,0.9292,1.0,0.9163

@@ -1,0 +1,361 @@
+crop_name,patient_id,original_gross_label,corrected_gross_label,label_changed,reason,fine_grain_present,clinical_note_excerpt,split,log_date
+p001_002_tooth001.jpg,p001,caries,Caries,False,standard_label_no_change,defect,"Carious cavitation(brown black) visible in the occlusal surface of the tooth, along the central groo",train,2026-05-20
+p012_002_tooth005.jpg,p012,caries- actually pre-caries,REVIEW_NEEDED,True,no_cavitation_at_crop_scale_reclassified_precaries,chalky,Early shallow demineralisation  limited to enamel with chalky matte appearnace on the central groove,train,2026-05-20
+p017_002_tooth000.jpg,p017,caries,Caries,False,standard_label_no_change,defect,cavitation with possible dentin involvenent visible on the central groove on occlusal surface of the,train,2026-05-20
+p021_003_tooth000.jpg,p021,caries,Caries,False,standard_label_no_change,"fill, defect, stain",Occlusal restoration with inadequate margins indicative of secondary caries. radiograph will conform,val,2026-05-20
+p021_003_tooth005.jpg,p021,caries,Caries,False,standard_label_no_change,defect,frank carious cavitation with dentinal involvement in the lingual pit of anterior tooth,val,2026-05-20
+p021_003_tooth007.jpg,p021,caries,Caries,False,standard_label_no_change,"defect, stain, wear","grey shadow suggestive of dentinal involvement, visible on the labio-proximal surface of the incisor",val,2026-05-20
+p021_003_tooth012.jpg,p021,caries,Caries,False,standard_label_no_change,"defect, stain","grey shadow suggestive of dentin involvement visible on the occlusal surface of the tooth, with extr",val,2026-05-20
+p021_004_tooth003.jpg,p021,caries,Caries,False,standard_label_no_change,"fill, defect, stain",heavily occlusally restored tooth with inadeqaute margins suggestive of secondary caries. the restor,val,2026-05-20
+p021_004_tooth008.jpg,p021,caries,Caries,False,standard_label_no_change,"defect, wear",grey shadow from dentinal caries visible on the proximal surface of the incisor with attrited incisa,val,2026-05-20
+p022_002_tooth000.jpg,p022,caries,Caries,False,standard_label_no_change,"brown, defect"," cavitation on mesio-lingual goove with underlying grey shadow,  continuing as brownish discoloratio",train,2026-05-20
+p022_003_tooth001.jpg,p022,caries-actually precaries(brown),Pre-caries,True,no_cavitation_at_crop_scale_reclassified_precaries,brown,"brown patch visible on lingual surface, early demineralisation cannot be excluded.",train,2026-05-20
+p036_002_tooth010.jpg,p036,caries,Caries,False,standard_label_no_change,defect,"cavitaties on occlusal grooves and fissures, continuing into proximal area.",val,2026-05-20
+p039_001_tooth015.jpg,p039,caries,Caries,False,standard_label_no_change,"chalky, defect",cavitation on the cervical margin of the tooth surrounded by chalky white deminerlisation ,train,2026-05-20
+p039_001_tooth016.jpg,p039,caries,Caries,False,standard_label_no_change,"chalky, defect",cavitation on the cervical margin of the tooth surrounded by chalky white deminerlisation ,train,2026-05-20
+p045_002_tooth000.jpg,p045,caries,Caries,False,standard_label_no_change,defect,deep cavity with uinderlying dark shadow visible on the tooth reflection from mirror.,train,2026-05-20
+p056_002_tooth000.jpg,p056,caries,Caries,False,standard_label_no_change,defect,occlusal surface reflection of tooth with severe dark cavitation visible.,val,2026-05-20
+p056_003_tooth005.jpg,p056,caries,Caries,False,standard_label_no_change,"brown, fill, defect, stain",Inadequate restorations with secondary caries suspected both occlusally and proximally. ,val,2026-05-20
+p064_001_tooth000.jpg,p064,caries,Caries,False,standard_label_no_change,"fill, defect, stain",discolored cervical restoration with inadequate margins and secondary caries along with grey shadow ,train,2026-05-20
+p064_001_tooth002.jpg,p064,caries,Caries,False,standard_label_no_change,"fill, defect, stain","discolored cervical restoration on buccal surface, inadequate with secondary caries, grey shadow in ",train,2026-05-20
+p064_002_tooth010.jpg,p064,caries,Caries,False,standard_label_no_change,"brown, defect","frank cavitation in occlusal grooves and pits, with underlying dark grey shadow.",train,2026-05-20
+p064_003_tooth003.jpg,p064,caries,Caries,False,standard_label_no_change,defect,"occlusal restoration with marginal leakage and inadequate margins, with cavitation extending to the ",train,2026-05-20
+p069_001_tooth014.jpg,p069,caries-actually precaries(brown),Pre-caries,True,no_cavitation_at_crop_scale_reclassified_precaries,brown,"brown lesion in the cervical-interproximal area, early demineralisation cannot be excluded",train,2026-05-20
+p077_002_tooth003.jpg,p077,caries,Caries,False,standard_label_no_change,defect,cavitation on the occlusal groove,train,2026-05-20
+p078_001_tooth003.jpg,p078,caries,Caries,False,standard_label_no_change,"brown, fill, defect, stain","occlusal restoration with marginal leakage and inadequate margins, with cavitation extending to the ",val,2026-05-20
+p085_001_tooth000.jpg,p085,caries,Caries,False,standard_label_no_change,"brown, defect",cavitation on occlusal groove along with early deminerlised area on the other side.,val,2026-05-20
+p085_003_tooth004.jpg,p085,caries,Caries,False,standard_label_no_change,"fill, defect",secondary caries cavitation on triangular fossa of the proximal area.,val,2026-05-20
+p085_003_tooth007.jpg,p085,caries,Caries,False,standard_label_no_change,defect,cavitation the occlusal groove and fissures,val,2026-05-20
+p087_001_tooth001.jpg,p087,caries,Caries,False,standard_label_no_change,"brown, defect",cavitation within multiple fissures and grooves on the occlusal surface,train,2026-05-20
+p092_001_tooth000.jpg,p092,caries,Caries,False,standard_label_no_change,"fill, defect",heavy occlusal restoration with marginal leakage and secondary caries. radiograph can confirm pathol,train,2026-05-20
+p092_002_tooth003.jpg,p092,caries,Caries,False,standard_label_no_change,"fill, defect, stain",occlusal restoration with a brown spot in the central groove present. A proximal restoration with ov,train,2026-05-20
+p097_002_tooth001.jpg,p097,caries,Caries,False,standard_label_no_change,defect,fractured cups with severe frank cavitation seen with dentinal and possible pulp exposure.,train,2026-05-20
+p097_002_tooth009.jpg,p097,caries,Caries,False,standard_label_no_change,defect,"two teeth portions seen with possible interproximal caries, near the cervical region.  in one of the",train,2026-05-20
+p112_002_tooth002.jpg,p112,caries,Caries,False,standard_label_no_change,defect,"occlusal cavitation along central occlusal groove and fissure , extending into proximal fissure also",train,2026-05-20
+p112_002_tooth003.jpg,p112,caries,Caries,False,standard_label_no_change,defect,occlusal cavitation along central occlusal groove and fissure.,train,2026-05-20
+p112_003_tooth001.jpg,p112,caries,Caries,False,standard_label_no_change,defect,frank cavitation with cuspal fractures with dentinal and possible pulp exposure,train,2026-05-20
+p122_002_tooth002.jpg,p122,caries-actually precaries(brown),Pre-caries,True,no_cavitation_at_crop_scale_reclassified_precaries,"brown, fill, stain","occlusally restored(stained) tooth with brown pattches along lingual groove, early demineralisation ",train,2026-05-20
+p122_004_tooth003.jpg,p122,caries,Caries,False,standard_label_no_change,defect,"caries in the buccal, central and lingual grooves, with underlying dark shadow present.",train,2026-05-20
+p127_003_tooth001.jpg,p127,caries-actually precaries(brown),Pre-caries,True,no_cavitation_at_crop_scale_reclassified_precaries,brown,"brown patch on occlusal grooves, early demineralisation cannot be excluded.",train,2026-05-20
+p132_011_tooth000.jpg,p132,caries,Caries,False,standard_label_no_change,"chalky, defect",surface integrity loss visbile in many areas occlusally with dark shadow also visible in few occlusa,train,2026-05-20
+p136_001_tooth002.jpg,p136,caries,Caries,False,standard_label_no_change,"defect, stain",occlusal restoration with marginal leakage and possible secondary caries present. radiograph needed ,train,2026-05-20
+p147_001_tooth001.jpg,p147,caries,Caries,False,standard_label_no_change,defect,sever cavitation with dark shadow in the occlusal surface of the tooth.,train,2026-05-20
+p161_006_tooth000.jpg,p161,caries,Caries,False,standard_label_no_change,defect,occlusal fissure cavitation present,train,2026-05-20
+p164_001_tooth001.jpg,p164,caries,Caries,False,standard_label_no_change,"fill, defect",tooth with fractured crown and large restoration with exposed caries cavitation seen on the cuspal a,val,2026-05-20
+p164_001_tooth002.jpg,p164,caries,Caries,False,standard_label_no_change,defect,multiple cavities with dentin exposure visible on crown. in the gingiva receeded root also there see,val,2026-05-20
+p177_002_tooth000.jpg,p177,caries,Caries,False,standard_label_no_change,"brown, fill, defect",occlusal restoration(with brown spot) with mutliple cavities present,train,2026-05-20
+p178_005_tooth002.jpg,p178,caries,Caries,False,standard_label_no_change,"defect, stain",central occlusal groove with cervical staining(wothout surface integrity loss) present.,train,2026-05-20
+p179_001_tooth001.jpg,p179,caries,Caries,False,standard_label_no_change,"fill, defect",occlusal groove and buccal cusp cavitation and secondary caries along with marginal ridge restoratio,train,2026-05-20
+p179_002_tooth005.jpg,p179,caries-actually precaries(brown),Pre-caries,True,no_cavitation_at_crop_scale_reclassified_precaries,"brown, wear",brown patch on the lingual fissures with cusp edge attrited. early demineralisation cannot be exclud,train,2026-05-20
+p185_004_tooth000.jpg,p185,caries,Caries,False,standard_label_no_change,defect,mesial cusp edge fractured and exposed from caries. ,val,2026-05-20
+p185_004_tooth002.jpg,p185,caries,Caries,False,standard_label_no_change,"chalky, fill, defect","inicisal edge and proximal fillings with incomplete margins suspective of secondary caries , cavitat",val,2026-05-20
+p185_008_tooth005.jpg,p185,caries,Caries,False,standard_label_no_change,defect,fractured tooth with dentin and pulp exposure.,val,2026-05-20
+p187_002_tooth001.jpg,p187,caries,Caries,False,standard_label_no_change,defect,multlple cavities presnt across occlusal fissures and grooves with underlying grey shadow.,val,2026-05-20
+p212_001_tooth000.jpg,p212,caries,Caries,False,standard_label_no_change,"fill, defect, stain",tooth with cervical restoration with marginal leakage and secondary caries.Radiograph needed to conf,train,2026-05-20
+p218_009_tooth002.jpg,p218,caries,Caries,False,standard_label_no_change,defect,cavitation in the llngual fissure. Grey shadow visible in proximal area suggestive of dentinal carie,train,2026-05-20
+p218_009_tooth003.jpg,p218,caries,Caries,False,standard_label_no_change,defect,cavitation in the llngual fissure. Grey shadow visible in proximal area suggestive of dentinal carie,train,2026-05-20
+p218_010_tooth000.jpg,p218,caries,Caries,False,standard_label_no_change,defect,cavitation in the llngual fissure. Grey shadow visible in proximal area suggestive of dentinal carie,train,2026-05-20
+p220_001_tooth002.jpg,p220,caries,Caries,False,standard_label_no_change,defect,distolingual cusp fracture from cavitation. multiple carious demineralisation visible.,train,2026-05-20
+p222_004_tooth000.jpg,p222,caries,Caries,False,standard_label_no_change,defect,cavitation in the occlusal fissures.,train,2026-05-20
+p224_004_tooth003.jpg,p224,caries,Caries,False,standard_label_no_change,defect,retained carious root fragment visible.,train,2026-05-20
+p224_004_tooth004.jpg,p224,caries,Caries,False,standard_label_no_change,defect,retained carious root fragment visible.,train,2026-05-20
+p240_002_tooth001.jpg,p240,caries,Caries,False,standard_label_no_change,defect,cavitation in the llngual and proximal fissures. Grey shadow visible in proximal area suggestive of ,train,2026-05-20
+p241_002_tooth000.jpg,p241,caries,Caries,False,standard_label_no_change,"brown, defect",cavitation in occlusal fissures with underlying dark shadow.,train,2026-05-20
+p241_003_tooth001.jpg,p241,caries,Caries,False,standard_label_no_change,defect,cavitation in occlusal fissures with underlying dark shadow. image is heavily obscured with saliva,train,2026-05-20
+p244_003_tooth001.jpg,p244,caries,Caries,False,standard_label_no_change,"brown, defect, wear",cavitation in occlusal fissures with weared of occlusal cusp facets.,train,2026-05-20
+p244_003_tooth005.jpg,p244,caries,Caries,False,standard_label_no_change,"fill, defect",occlusal fissure cavitation present,train,2026-05-20
+p255_003_tooth000.jpg,p255,caries,Caries,False,standard_label_no_change,"fill, defect, stain",heavily restored(the fillings are stained) tooth with buccal cusp fracture from severe carious cavit,train,2026-05-20
+p266_005_tooth004.jpg,p266,caries,Caries,False,standard_label_no_change,defect,cavitation in occlusal fissures with weared of occlusal cusp facets.,train,2026-05-20
+p269_005_tooth007.jpg,p269,caries,Caries,False,standard_label_no_change,defect,occlusal fissure cavitation with dark shadow and cervical surface staining of tooth,train,2026-05-20
+p281_005_tooth000.jpg,p281,caries-actually precaries(brown),Pre-caries,True,no_cavitation_at_crop_scale_reclassified_precaries,"brown, fill, stain","heavily restored(the fillings are stained) tooth with brown patches , early demineralisation cannot ",train,2026-05-20
+p281_005_tooth001.jpg,p281,caries-actually precaries(brown),Pre-caries,True,no_cavitation_at_crop_scale_reclassified_precaries,"brown, fill, stain","heavily restored tooth with brown patches , early demineralisation cannot be excluded. .Radiograph c",train,2026-05-20
+p281_005_tooth002.jpg,p281,caries-actually precaries(brown),Pre-caries,True,no_cavitation_at_crop_scale_reclassified_precaries,"brown, fill","heavily restored(the fillings are stained) tooth with brown patches , early demineralisation cannot ",train,2026-05-20
+p283_004_tooth005.jpg,p283,caries,Caries,False,standard_label_no_change,"brown, defect","cavitation present in the central and distal pit, early deminerlaisatiion extending into disto-bucca",train,2026-05-20
+p284_001_tooth000.jpg,p284,caries,Caries,False,standard_label_no_change,"fill, defect",heavily restored tooth with secondary caries.Radiograph can confirm.pathology,train,2026-05-20
+p284_001_tooth006.jpg,p284,caries,Caries,False,standard_label_no_change,"fill, defect",heavily restored tooth with secondary caries.Radiograph can confirm.pathology and further steps.,train,2026-05-20
+p285_001_tooth000.jpg,p285,caries,Caries,False,standard_label_no_change,"brown, defect",cavity in distal marginal ridge area and also in the mesial pit.early demineralisation extending int,train,2026-05-20
+p285_002_tooth003.jpg,p285,caries,Caries,False,standard_label_no_change,defect,cruciform fissure cavitation.,train,2026-05-20
+p286_002_tooth002.jpg,p286,caries,Caries,False,standard_label_no_change,defect,occlusal fissure cavitation,train,2026-05-20
+p001_003_tooth006.jpg,p001,decolor,Decolor,False,standard_label_no_change,"fill, stain",stain spots suggestive of extrinsic discoloration present over the occlusal surface restoration,train,2026-05-20
+p001_003_tooth013.jpg,p001,decolor,Decolor,False,standard_label_no_change,stain,stain spots suggestive of extrinsic discoloration present .,train,2026-05-20
+p012_001_tooth000.jpg,p012,decolor,Decolor,False,standard_label_no_change,stain,yellowish discolouration suggestive of intrinsic location present on the cervical surface of incisor,train,2026-05-20
+p012_001_tooth001.jpg,p012,decolor,Decolor,False,standard_label_no_change,stain,yellowish discolouration suggestive of intrinsic location present on the cervical surface of incisor,train,2026-05-20
+p012_001_tooth012.jpg,p012,decolor,Decolor,False,standard_label_no_change,stain,opaque white patches suggestive of intrinsic discoloration visible,train,2026-05-20
+p098_001_tooth002.jpg,p098,caries,Caries,False,standard_label_no_change,"defect, wear",anterior tooth with cavitated spots on the lower lingual surface and  worn out incisal edge.,train,2026-05-20
+p101_003_tooth012.jpg,p101,caries-looks more like pre-caries as there is no cavitation visible.,Pre-caries,True,standard_label_no_change,brown,reflection of an occlusally restored tooth with early deminerlisation i.r.t secondary caries visible,val,2026-05-20
+p185_004_tooth028.jpg,p185,caries- seems to be normal,Normal,True,no_pathology_visible_at_crop_scale,,no pathology or surface loss seen.,val,2026-05-20
+p021_002_tooth007.jpg,p021,decolor,Decolor,False,standard_label_no_change,"stain, wear",discolouration visible on the worn off incisal edge,val,2026-05-20
+p021_003_tooth019.jpg,p021,decolor,Decolor,False,standard_label_no_change,stain,cusp with dark grey discolouration suggestive of intrinsic discolouration,val,2026-05-20
+p033_001_tooth007.jpg,p033,decolor,Decolor,False,standard_label_no_change,stain,cusp with dark grey discolouration suggestive of intrinsic discolouration,train,2026-05-20
+p033_001_tooth008.jpg,p033,decolor,Decolor,False,standard_label_no_change,stain,tooth seems to be completely dark brown with more saturation present towards the cervical area and r,train,2026-05-20
+p033_001_tooth009.jpg,p033,decolor,Decolor,False,standard_label_no_change,"stain, wear",worn out tooth seems to be completely dark brown with more saturation present towards the cervical a,train,2026-05-20
+p036_001_tooth000.jpg,p036,decolor,Decolor,False,standard_label_no_change,stain,stain present across what appears as furrows through the labial surface of the tooth ,val,2026-05-20
+p036_002_tooth006.jpg,p036,decolor,Decolor,False,standard_label_no_change,"fill, stain",dark spots present below the occlusal edge restoration,val,2026-05-20
+p039_001_tooth001.jpg,p039,decolor,Decolor,False,standard_label_no_change,"stain, wear","cervical abrasion stained with wear facet, adjacent discoloration present near cervical and proximal",train,2026-05-20
+p039_002_tooth014.jpg,p039,decolor,Decolor,False,standard_label_no_change,stain,heavy occlusal restoration with stained margins,train,2026-05-20
+p039_003_tooth007.jpg,p039,decolor,Decolor,False,standard_label_no_change,"stain, wear",stained inicisal edge wear facet possibly revealing dark yellow shade from dentin beneath due to thi,train,2026-05-20
+p043_002_tooth013.jpg,p043,decolor,Decolor,False,standard_label_no_change,brown,yellow brown spot present over occlusal surface,train,2026-05-20
+p043_002_tooth018.jpg,p043,decolor,Decolor,False,standard_label_no_change,stain,discoloration present beneath orthdoontic bracket over buccal surface ot tooth,train,2026-05-20
+p045_002_tooth001.jpg,p045,decolor,Decolor,False,standard_label_no_change,"fill, stain",discoloration present around margins of occlusally restored tooth,train,2026-05-20
+p045_002_tooth002.jpg,p045,decolor,Decolor,False,standard_label_no_change,"fill, stain",discoloration present around margins of occlusally restored tooth,train,2026-05-20
+p056_002_tooth006.jpg,p056,decolor,Decolor,False,standard_label_no_change,"stain, wear",stain spots across facial surface and worn out incisal edge of the tooth,val,2026-05-20
+p056_002_tooth008.jpg,p056,decolor,Decolor,False,standard_label_no_change,"brown, fill, stain","discoloration present on occlusally restored tooth, with brownish discolouration on the occlusal fis",val,2026-05-20
+p056_003_tooth010.jpg,p056,decolor,Decolor,False,standard_label_no_change,"fill, stain, wear",stained tooth with multiple restorations and wear facets.,val,2026-05-20
+p064_001_tooth007.jpg,p064,decolor,Decolor,False,standard_label_no_change,stain,staining on worn out incisal edge and proximal surface,train,2026-05-20
+p069_002_tooth005.jpg,p069,decolor,Decolor,False,standard_label_no_change,stain,discoloured incisal edge and lingual surface of incisor,train,2026-05-20
+p069_002_tooth010.jpg,p069,decolor,Decolor,False,standard_label_no_change,stain,discolured incisal edge and lingual surface spot,train,2026-05-20
+p078_003_tooth004.jpg,p078,decolor,Decolor,False,standard_label_no_change,brown,brown patch across lingual pits and fissures of incisor,val,2026-05-20
+p083_001_tooth001.jpg,p083,decolor,Decolor,False,standard_label_no_change,stain,stains around margins of lingually restored tooth,train,2026-05-20
+p083_001_tooth002.jpg,p083,decolor,Decolor,False,standard_label_no_change,"brown, stain",stains and brown patch around margins of lingually restored tooth,train,2026-05-20
+p085_001_tooth003.jpg,p085,decolor,Decolor,False,standard_label_no_change,"brown, stain",Brown patches seen in the proximal area. unclear about surface integrity loss,val,2026-05-20
+p085_001_tooth004.jpg,p085,decolor,Decolor,False,standard_label_no_change,"fill, stain",full surface occlusal composite restoration with stained fissures and pits,val,2026-05-20
+p087_001_tooth007.jpg,p087,decolor,Decolor,False,standard_label_no_change,stain,central discoloration spot on the tooth prepapared for restorative crown placement,train,2026-05-20
+p097_002_tooth012.jpg,p097,decolor,Decolor,False,standard_label_no_change,stain,tooth with stain spot and discoloration on the occlusal surface,train,2026-05-20
+p097_003_tooth009.jpg,p097,decolor,Decolor,False,standard_label_no_change,brown,brown patch over central fissure and brown spot over the occlusal surface of tooth.,train,2026-05-20
+p098_001_tooth009.jpg,p098,decolor,Decolor,False,standard_label_no_change,"brown, stain",occlusal restoration stained with brownish fissure,train,2026-05-20
+p098_002_tooth004.jpg,p098,decolor,Decolor,False,standard_label_no_change,stain,staining present on the proximal surface of incisor,train,2026-05-20
+p098_002_tooth005.jpg,p098,decolor,Decolor,False,standard_label_no_change,stain,staining present on the proximal surface of incisor,train,2026-05-20
+p101_003_tooth014.jpg,p101,decolor,Decolor,False,standard_label_no_change,"brown, fill, stain",brown patch around occlusal restoration,val,2026-05-20
+p127_003_tooth004.jpg,p127,decolor,Decolor,False,standard_label_no_change,brown,brown patch in occlusal surface fissures,train,2026-05-20
+p132_006_tooth009.jpg,p132,decolor,Decolor,False,standard_label_no_change,stain,discoloration suggestive of calculus in the proximal side,train,2026-05-20
+p132_006_tooth014.jpg,p132,decolor,Decolor,False,standard_label_no_change,stain,discoloration suggestive of suprgingival calculus visible,train,2026-05-20
+p132_006_tooth015.jpg,p132,decolor,Decolor,False,standard_label_no_change,stain,discoloration suggestive of suprgingival calculus visible on the cervical and interproximal side,train,2026-05-20
+p132_006_tooth016.jpg,p132,decolor,Decolor,False,standard_label_no_change,stain,discoloration suggestive of calculus seen in proximal area,train,2026-05-20
+p136_001_tooth004.jpg,p136,decolor,Decolor,False,standard_label_no_change,"brown, fill, stain",heavily occlusaly restored tooth with stained margins ,train,2026-05-20
+p136_001_tooth005.jpg,p136,decolor,Decolor,False,standard_label_no_change,"fill, stain",occusally resored tooth with stained margins,train,2026-05-20
+p136_003_tooth005.jpg,p136,decolor,Decolor,False,standard_label_no_change,stain,stain on the lingual surface of tooth and incisal edge,train,2026-05-20
+p161_002_tooth003.jpg,p161,decolor,Decolor,False,standard_label_no_change,stain,random stain spots present over occlusal surface of tootj,train,2026-05-20
+p161_002_tooth004.jpg,p161,decolor,Decolor,False,standard_label_no_change,stain,stain spots on tooth,train,2026-05-20
+p164_001_tooth003.jpg,p164,decolor,Decolor,False,standard_label_no_change,stain,stain on the lingual surface of tooth and incisal edge,val,2026-05-20
+p164_001_tooth005.jpg,p164,decolor,Decolor,False,standard_label_no_change,stain,stain on lingual and cervical surface of tooth,val,2026-05-20
+p164_001_tooth007.jpg,p164,decolor,Decolor,False,standard_label_no_change,stain,almost entire lingual surface of the tooth stained,val,2026-05-20
+p164_001_tooth008.jpg,p164,decolor,Decolor,False,standard_label_no_change,stain,almost entire tooth surface stained,val,2026-05-20
+p164_001_tooth009.jpg,p164,decolor,Decolor,False,standard_label_no_change,stain,stained tooth surface,val,2026-05-20
+p164_002_tooth001.jpg,p164,decolor,Decolor,False,standard_label_no_change,stain,stained tooth with yellowish calculus +++,val,2026-05-20
+p164_002_tooth004.jpg,p164,decolor,Decolor,False,standard_label_no_change,stain,stained tooth with yellowish calculus ++,val,2026-05-20
+p164_002_tooth007.jpg,p164,decolor,Decolor,False,standard_label_no_change,stain,staining on the occlusal edge and proximal traingular fossas,val,2026-05-20
+p178_005_tooth011.jpg,p178,decolor,Decolor,False,standard_label_no_change,"stain, wear",stain on worn out incisal edge and cervical surface,train,2026-05-20
+p178_005_tooth012.jpg,p178,decolor,Decolor,False,standard_label_no_change,stain,discoloration on worn out incisal edge and cervical surface,train,2026-05-20
+p179_001_tooth007.jpg,p179,decolor,Decolor,False,standard_label_no_change,"stain, wear",stain on worn out incisal edge and cervical surface,train,2026-05-20
+p179_001_tooth008.jpg,p179,decolor,Decolor,False,standard_label_no_change,stain,stain on incisal edge and cervical surface,train,2026-05-20
+p179_002_tooth004.jpg,p179,decolor,Decolor,False,standard_label_no_change,"stain, wear",stain on worn out incisal edge and cervical surface,train,2026-05-20
+p185_001_tooth000.jpg,p185,decolor,Decolor,False,standard_label_no_change,stain,stain on the proximal area,val,2026-05-20
+p185_001_tooth001.jpg,p185,decolor,Decolor,False,standard_label_no_change,"brown, stain",stain on the proximal area with brown spots near the cervical area suspicious of early deminerlisati,val,2026-05-20
+p189_002_tooth000.jpg,p189,decolor,Decolor,False,standard_label_no_change,"brown, fill, stain",tooth with heavy occlusal restoration with brown black and white discoloration all over the tooth su,train,2026-05-20
+p189_002_tooth001.jpg,p189,decolor-actually pre-caries,REVIEW_NEEDED,True,no_cavitation_at_crop_scale_reclassified_precaries,"brown, stain","brown discoloration in the occlusal-proximal fissure and staining in the occlusal and cervical area,",train,2026-05-20
+p212_003_tooth015.jpg,p212,decolor,Decolor,False,standard_label_no_change,stain,metal crown restoration,train,2026-05-20
+p212_003_tooth020.jpg,p212,decolor,Decolor,False,standard_label_no_change,stain,staining on the cervical and proximal side,train,2026-05-20
+p212_005_tooth014.jpg,p212,decolor,Decolor,False,standard_label_no_change,stain,metal crown restoration,train,2026-05-20
+p218_009_tooth015.jpg,p218,decolor,Decolor,False,standard_label_no_change,stain,metal abutment for prosthetic implant placement,train,2026-05-20
+p218_010_tooth009.jpg,p218,decolor,Decolor,False,standard_label_no_change,stain,"stain on what appears to be a interproximal area, very poor image quality",train,2026-05-20
+p222_004_tooth007.jpg,p222,decolor,Decolor,False,standard_label_no_change,stain,stain on the cervical area,train,2026-05-20
+p222_004_tooth009.jpg,p222,decolor,Decolor,False,standard_label_no_change,stain,stain on the cervical area,train,2026-05-20
+p224_003_tooth001.jpg,p224,decolor,Decolor,False,standard_label_no_change,"stain, wear","stain present on the worn out incisal edge, proximal area of crown and along the root surface expose",train,2026-05-20
+p224_003_tooth010.jpg,p224,decolor,Decolor,False,standard_label_no_change,stain,metal crown restoration,train,2026-05-20
+p224_004_tooth000.jpg,p224,decolor,Decolor,False,standard_label_no_change,stain,metal crown restoration,train,2026-05-20
+p224_005_tooth005.jpg,p224,decolor,Decolor,False,standard_label_no_change,stain,dark brown stain present in the cervical area along with calculus,train,2026-05-20
+p224_005_tooth013.jpg,p224,decolor,Decolor,False,standard_label_no_change,stain,dark brown stain present in the cervical area along with calculus,train,2026-05-20
+p240_002_tooth004.jpg,p240,decolor,Decolor,False,standard_label_no_change,stain,"discoloration present over proximal fossa , occlusal fissures and pits",train,2026-05-20
+p255_002_tooth002.jpg,p255,decolor,Decolor,False,standard_label_no_change,stain,stain over lingual and cervical area,train,2026-05-20
+p255_003_tooth001.jpg,p255,decolor,Decolor,False,standard_label_no_change,"brown, fill, stain",staining on occlusal restoration and cervical area along with brownish discoloration of occlusal fis,train,2026-05-20
+p255_003_tooth002.jpg,p255,decolor,Decolor,False,standard_label_no_change,stain,brown patches over occlusal restoration margina and cervical margin. suspicious of surface demineral,train,2026-05-20
+p266_001_tooth002.jpg,p266,decolor,Decolor,False,standard_label_no_change,stain,stain spot and discoloration present over occlusal surface,train,2026-05-20
+p266_005_tooth002.jpg,p266,decolor,Decolor,False,standard_label_no_change,stain,stain present over lingual surface,train,2026-05-20
+p269_004_tooth001.jpg,p269,decolor,Decolor,False,standard_label_no_change,stain,stain present on proximal and cervical area',train,2026-05-20
+p269_005_tooth000.jpg,p269,decolor,Decolor,False,standard_label_no_change,stain,completely stained tooth with cemented orthodontic wire ,train,2026-05-20
+p269_005_tooth001.jpg,p269,decolor,Decolor,False,standard_label_no_change,stain,completely stained tooth with cemented orthodontic wire ,train,2026-05-20
+p269_005_tooth004.jpg,p269,decolor,Decolor,False,standard_label_no_change,stain,lingual surface of tooth completely stained with orthodontic wire cemented,train,2026-05-20
+p281_001_tooth000.jpg,p281,decolor,Decolor,False,standard_label_no_change,brown,brown spot othe proximal-incisal angle,train,2026-05-20
+p281_001_tooth017.jpg,p281,decolor,Decolor,False,standard_label_no_change,stain,"completely stained tooth , very poor image quality ",train,2026-05-20
+p284_001_tooth008.jpg,p284,decolor,Decolor,False,standard_label_no_change,stain,completely stained tooth,train,2026-05-20
+p284_001_tooth009.jpg,p284,decolor,Decolor,False,standard_label_no_change,stain,completely stained tooth,train,2026-05-20
+p285_001_tooth003.jpg,p285,decolor,Decolor,False,standard_label_no_change,stain,stain on the cervical area,train,2026-05-20
+p285_001_tooth005.jpg,p285,decolor,Decolor,False,standard_label_no_change,stain,stain over cervical area,train,2026-05-20
+p285_001_tooth011.jpg,p285,decolor,Decolor,False,standard_label_no_change,brown,brownish discoloration in fissures and pits,train,2026-05-20
+p285_001_tooth012.jpg,p285,decolor,Decolor,False,standard_label_no_change,stain,stain over cervical area,train,2026-05-20
+p285_003_tooth001.jpg,p285,decolor,Decolor,False,standard_label_no_change,stain,stain over lingual and cervical area,train,2026-05-20
+p286_007_tooth018.jpg,p286,decolor-actually pre-caries,REVIEW_NEEDED,True,no_cavitation_at_crop_scale_reclassified_precaries,"brown, stain","brown spots over occlusal pits and fissure, ealry demineralisation cannot be excluded.",train,2026-05-20
+p066_002_tooth001.jpg,p066,decolor-actually caries,Caries,True,cavitation_visible_at_crop_scale,defect,cavitation present in the lingual fissure,train,2026-05-20
+p066_002_tooth014.jpg,p066,decolor-actually caries,Caries,True,cavitation_visible_at_crop_scale,"brown, defect",cavitation on the occlusal groove,train,2026-05-20
+p078_001_tooth004.jpg,p078,decolor-actually caries,Caries,True,cavitation_visible_at_crop_scale,"fill, defect, stain",occlusal restoration with marginal leakage and secondary caries,val,2026-05-20
+p286_007_tooth002.jpg,p286,decolor-actually pre-caries,REVIEW_NEEDED,True,no_cavitation_at_crop_scale_reclassified_precaries,"brown, defect","brown patch over occlusal fissure, early deminerlisation cannot be excluded",train,2026-05-20
+p001_001_tooth012.jpg,p001,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p012_002_tooth010.jpg,p012,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p017_002_tooth007.jpg,p017,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p017_003_tooth013.jpg,p017,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p021_004_tooth017.jpg,p021,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,val,2026-05-20
+p022_003_tooth007.jpg,p022,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p033_004_tooth008.jpg,p033,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p036_004_tooth007.jpg,p036,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,val,2026-05-20
+p043_002_tooth017.jpg,p043,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p043_003_tooth012.jpg,p043,normal,Normal,False,standard_label_no_change,,there seems to be some color traces of articulating paper(pink) on the articulating surfaces of the ,train,2026-05-20
+p045_002_tooth015.jpg,p045,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p056_002_tooth015.jpg,p056,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,val,2026-05-20
+p064_003_tooth004.jpg,p064,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p066_001_tooth012.jpg,p066,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p069_001_tooth007.jpg,p069,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p077_002_tooth005.jpg,p077,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p077_003_tooth018.jpg,p077,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p078_002_tooth017.jpg,p078,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,val,2026-05-20
+p085_001_tooth008.jpg,p085,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,val,2026-05-20
+p087_001_tooth005.jpg,p087,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p087_003_tooth012.jpg,p087,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p092_001_tooth012.jpg,p092,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p097_001_tooth016.jpg,p097,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p101_002_tooth013.jpg,p101,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,val,2026-05-20
+p112_003_tooth007.jpg,p112,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p122_002_tooth005.jpg,p122,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p127_002_tooth009.jpg,p127,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p136_003_tooth014.jpg,p136,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p147_001_tooth020.jpg,p147,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p161_006_tooth003.jpg,p161,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p177_006_tooth001.jpg,p177,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p178_007_tooth010.jpg,p178,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p179_001_tooth003.jpg,p179,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p185_006_tooth011.jpg,p185,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,val,2026-05-20
+p187_001_tooth016.jpg,p187,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,val,2026-05-20
+p189_001_tooth009.jpg,p189,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p212_005_tooth006.jpg,p212,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p218_010_tooth007.jpg,p218,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p220_001_tooth000.jpg,p220,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p222_002_tooth010.jpg,p222,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p224_005_tooth010.jpg,p224,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p240_001_tooth010.jpg,p240,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p241_003_tooth013.jpg,p241,normal-actually pre-caries,Pre-caries,True,no_cavitation_at_crop_scale_reclassified_precaries,brown,in the proximal side -brown patch seems to be present- hence early demineralisation cannot be exclud,train,2026-05-20
+p255_002_tooth008.jpg,p255,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p259_001_tooth006.jpg,p259,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p269_004_tooth013.jpg,p269,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p281_005_tooth017.jpg,p281,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p283_002_tooth002.jpg,p283,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p283_003_tooth003.jpg,p283,normal,Normal,False,standard_label_no_change,,no surface deformity or pathology detected visually,train,2026-05-20
+p284_002_tooth013.jpg,p284,normal,Normal,False,standard_label_no_change,,no pathology visually detected.,train,2026-05-20
+p285_002_tooth004.jpg,p285,normal-actually pre-caries,Pre-caries,True,no_cavitation_at_crop_scale_reclassified_precaries,chalky,chalky yellowish spot seems to be present in the proximal area- hence early demineralisation cannot ,train,2026-05-20
+p286_007_tooth005.jpg,p286,normal-actually pre-caries,Pre-caries,True,no_cavitation_at_crop_scale_reclassified_precaries,brown,brown patch seems to be present in the proximal incisal edge- hence early demineralisation cannot be,train,2026-05-20
+p083_003_tooth005.jpg,p083,normal-actually decolor,Decolor,True,stain_pattern_at_crop_scale,"fill, stain",few stain spots present on the occlusal surface of tooth,train,2026-05-20
+p098_002_tooth000.jpg,p098,normal-actually decolor,Decolor,True,stain_pattern_at_crop_scale,stain,mild stain seems to be present in the cervical surface of tooth,train,2026-05-20
+p132_006_tooth008.jpg,p132,normal-actually decolor,Decolor,True,stain_pattern_at_crop_scale,stain,mild staining seems to be present on the proximal side of the tooth.,train,2026-05-20
+p039_001_tooth004.jpg,p039,normal-actually pre-caries,Pre-caries,True,no_cavitation_at_crop_scale_reclassified_precaries,brown,brown patch seems to be present on cervical area- hence early demineralisation cannot be excluded,train,2026-05-20
+p149_004_tooth015.jpg,p149,normal-actually pre-caries,Pre-caries,True,no_cavitation_at_crop_scale_reclassified_precaries,brown,there seems to be brown pit spot on the lingual surface. early deminerlisation cannot be excluded,train,2026-05-20
+p187_002_tooth006.jpg,p187,normal-actually pre-caries,Pre-caries,True,no_cavitation_at_crop_scale_reclassified_precaries,"brown, fill",near the restorations there seems to be dark brown spot. Cannot make out if its an underlying dark s,val,2026-05-20
+p244_003_tooth017.jpg,p244,normal-actually pre-caries,Pre-caries,True,no_cavitation_at_crop_scale_reclassified_precaries,brown,"brown patch on the lingual surface pits, early demineralisation cannot be excluded.",train,2026-05-20
+p266_003_tooth000.jpg,p266,normal-actually pre-caries,Pre-caries,True,no_cavitation_at_crop_scale_reclassified_precaries,brown,"brown patch near the cervical area of the tooth, early demineralisation cannot be excluded.",train,2026-05-20
+p012_002_tooth007.jpg,p012,pre-caries,Pre-caries,False,standard_label_no_change,chalky,early demineralisation in the central groove,train,2026-05-20
+p017_002_tooth002.jpg,p017,pre-caries,Pre-caries,False,standard_label_no_change,chalky,brown patch in occlusal pit and fissures,train,2026-05-20
+p017_003_tooth004.jpg,p017,pre-caries,Pre-caries,False,standard_label_no_change,brown,cavity in occlusal pits and fissures,train,2026-05-20
+p021_002_tooth006.jpg,p021,pre-caries,Pre-caries,False,standard_label_no_change,chalky,"brown patch in occlusal pit and fissures, demineralisation cannot be excluded without clinical exam",val,2026-05-20
+p021_003_tooth016.jpg,p021,pre-caries,Pre-caries,False,standard_label_no_change,"brown, stain",brown patch found near the cervical and proximal area,val,2026-05-20
+p021_004_tooth007.jpg,p021,pre-caries,Pre-caries,False,standard_label_no_change,"brown, fill, stain",occlusal stained restoration with brown patch extending into facial surface fissures.,val,2026-05-20
+p022_002_tooth005.jpg,p022,pre-caries,Pre-caries,False,standard_label_no_change,"chalky, brown",early demineralisation seems to be present in the lingual pits,train,2026-05-20
+p022_002_tooth007.jpg,p022,pre-caries,Pre-caries,False,standard_label_no_change,chalky,early demineralisation over the central fissure,train,2026-05-20
+p022_003_tooth004.jpg,p022,pre-caries,Pre-caries,False,standard_label_no_change,chalky,early demineralisation over the central fissure,train,2026-05-20
+p022_003_tooth013.jpg,p022,pre-caries,Pre-caries,False,standard_label_no_change,"brown, stain","early brown demineralisation over the central fissure, with stain spots near cusp tip",train,2026-05-20
+p036_002_tooth000.jpg,p036,pre-caries,Pre-caries,False,standard_label_no_change,brown,brown patch over the central fissure,val,2026-05-20
+p001_002_tooth010.jpg,p001,pre-caries-actually caries,Caries,True,cavitation_visible_at_crop_scale,"fill, defect",secondary caries extending into the central groove starting from the restoration with inadequate mar,train,2026-05-20
+p001_003_tooth004.jpg,p001,pre-caries,Pre-caries,False,standard_label_no_change,"chalky, brown",early demineralisation in the form of brown path near proximal fissure and triangular fossa. some da,train,2026-05-20
+p012_002_tooth003.jpg,p012,pre-caries,Pre-caries,False,standard_label_no_change,"chalky, brown",brown patch on the central groove with early demineralisation in proximal areas.,train,2026-05-20
+p017_002_tooth003.jpg,p017,pre-caries-actually caries,Caries,True,cavitation_visible_at_crop_scale,"brown, defect",cavitation in the central groove with brown spots around,train,2026-05-20
+p036_003_tooth001.jpg,p036,pre-caries-actually caries,Caries,True,cavitation_visible_at_crop_scale,defect,cavitation in lingual fissure and pits,val,2026-05-20
+p039_001_tooth012.jpg,p039,pre-caries,Pre-caries,False,standard_label_no_change,chalky,early demineralisation in the cervical area,train,2026-05-20
+p039_001_tooth013.jpg,p039,pre-caries,Pre-caries,False,standard_label_no_change,chalky,early demineralisation over cervical area,train,2026-05-20
+p043_002_tooth002.jpg,p043,pre-caries,Pre-caries,False,standard_label_no_change,chalky,early demineralisation over central groove,train,2026-05-20
+p043_002_tooth003.jpg,p043,pre-caries,Pre-caries,False,standard_label_no_change,brown,brown patch over the central fissure,train,2026-05-20
+p043_003_tooth001.jpg,p043,pre-caries,Pre-caries,False,standard_label_no_change,"chalky, fill, stain",early demineralisation over central groove with stain spot and sealant,train,2026-05-20
+p045_001_tooth000.jpg,p045,pre-caries,Pre-caries,False,standard_label_no_change,"brown, stain",early brown demineralisation along with what appears to be tooth discoloration present. picture qual,train,2026-05-20
+p045_001_tooth016.jpg,p045,pre-caries,Pre-caries,False,standard_label_no_change,"chalky, stain",early demineralisation over central fissure and pit,train,2026-05-20
+p056_003_tooth003.jpg,p056,pre-caries-actually caries,Caries,True,cavitation_visible_at_crop_scale,"chalky, defect, wear",cavitation on the lingual fissures and pits with wear facets,val,2026-05-20
+p056_003_tooth008.jpg,p056,Pre-caries-actually caries,REVIEW_NEEDED,True,cavitation_visible_at_crop_scale,"chalky, brown, defect, wear",cavitation on the lingual fissures and pits with wear facets,val,2026-05-20
+p064_001_tooth006.jpg,p064,pre-caries,Pre-caries,False,standard_label_no_change,"brown, stain","brown patch on the proximal area, early deminerlisation cannot be excluded",train,2026-05-20
+p064_003_tooth001.jpg,p064,pre-caries,Pre-caries,False,standard_label_no_change,"chalky, brown",early demineralisation over proximal pit and fissure,train,2026-05-20
+p066_003_tooth000.jpg,p066,pre-caries,Pre-caries,False,standard_label_no_change,brown,brown patch over the central fissure,train,2026-05-20
+p066_003_tooth001.jpg,p066,pre-caries,Pre-caries,False,standard_label_no_change,"chalky, brown, stain",brown patch over the central fissure. early demineralisation cannot be excluded,train,2026-05-20
+p069_002_tooth000.jpg,p069,pre-caries,Pre-caries,False,standard_label_no_change,"brown, fill",brown patch over the central fissure with a stained proximal restoration,train,2026-05-20
+p069_003_tooth001.jpg,p069,pre-caries,Pre-caries,False,standard_label_no_change,"brown, fill, stain",brown patch over the central pits and fissures with a stained central restoration,train,2026-05-20
+p077_002_tooth000.jpg,p077,pre-caries,Pre-caries,False,standard_label_no_change,chalky,early demineralisation over the central fissure,train,2026-05-20
+p077_003_tooth001.jpg,p077,pre-caries,Pre-caries,False,standard_label_no_change,chalky,brown patch over the central fissure,train,2026-05-20
+p078_001_tooth001.jpg,p078,pre-caries-actually caries,Caries,True,cavitation_visible_at_crop_scale,defect,cavitation on the central groove ,val,2026-05-20
+p078_002_tooth013.jpg,p078,pre-caries-actually caries,Caries,True,cavitation_visible_at_crop_scale,"defect, stain",cavity on the buccal pit,val,2026-05-20
+p078_003_tooth009.jpg,p078,pre-caries,Pre-caries,False,standard_label_no_change,brown,"brown patch over the proximal areas, image quality very poor to confrim finding",val,2026-05-20
+p083_003_tooth001.jpg,p083,pre-caries-actually caries,Caries,True,cavitation_visible_at_crop_scale,defect,cavitation on the central fissure and proximal pit,train,2026-05-20
+p083_003_tooth004.jpg,p083,pre-caries-actually caries,Caries,True,cavitation_visible_at_crop_scale,defect,cavity on the central fissure,train,2026-05-20
+p085_003_tooth000.jpg,p085,pre-caries,Pre-caries,False,standard_label_no_change,"brown, fill, stain",central restoration surrounded by brown patched fissures suggestive of early demineralisation,val,2026-05-20
+p085_003_tooth001.jpg,p085,pre-caries,Pre-caries,False,standard_label_no_change,"chalky, stain",early demineralisation present on proximal fissure,val,2026-05-20
+p087_001_tooth002.jpg,p087,pre-caries,Pre-caries,False,standard_label_no_change,chalky,early demineralisation on the lingual fissures,train,2026-05-20
+p087_001_tooth003.jpg,p087,pre-caries,Pre-caries,False,standard_label_no_change,"chalky, stain",early demineralisation on the central groove and fissures,train,2026-05-20
+p087_003_tooth002.jpg,p087,pre-caries,Pre-caries,False,standard_label_no_change,"chalky, stain",early demineralisation on the central groove and fissures,train,2026-05-20
+p092_001_tooth014.jpg,p092,pre-caries-actually decolor,Decolor,True,stain_pattern_at_crop_scale,stain,looks like a stain spot on the occlusal surface of the tooth. findings cannot be confirmed as the  i,train,2026-05-20
+p092_002_tooth019.jpg,p092,pre-caries-actually caries,Caries,True,cavitation_visible_at_crop_scale,defect,cavitation on lingual fissures,train,2026-05-20
+p097_001_tooth001.jpg,p097,pre-caries,Pre-caries,False,standard_label_no_change,"brown, stain",tooth looks stained.  picture quality so poor that no other pathology can be confirmed. buccal pit a,train,2026-05-20
+p098_001_tooth001.jpg,p098,pre-caries-actually caries,Caries,True,cavitation_visible_at_crop_scale,"brown, defect",cavity on the lingual fissure along with brown path on the lingual proximal area,train,2026-05-20
+p098_003_tooth011.jpg,p098,pre-caries-actually caries,Caries,True,cavitation_visible_at_crop_scale,defect,cavitation on the central fissure,train,2026-05-20
+p101_001_tooth003.jpg,p101,pre-caries,Pre-caries,False,standard_label_no_change,chalky,early demineralisation in the central groove,val,2026-05-20
+p101_001_tooth008.jpg,p101,pre-caries,Pre-caries,False,standard_label_no_change,"chalky, fill",early demineralisation in the central groove and around restoration,val,2026-05-20
+p101_003_tooth007.jpg,p101,pre-caries,Pre-caries,False,standard_label_no_change,chalky,early demineralisation on the central groove and fissures,val,2026-05-20
+p112_002_tooth004.jpg,p112,pre-caries,Pre-caries,False,standard_label_no_change,chalky,early demineralisation on the central groove ,train,2026-05-20
+p112_003_tooth004.jpg,p112,pre-caries-actually caries,Caries,True,cavitation_visible_at_crop_scale,defect,cavity on the lingual fissure and pit,train,2026-05-20
+p122_002_tooth000.jpg,p122,pre-caries,Pre-caries,False,standard_label_no_change,"brown, stain",stained tooth with brown patch on the central groove,train,2026-05-20
+p122_002_tooth015.jpg,p122,pre-caries,Pre-caries,False,standard_label_no_change,chalky,chalky early demineralisation spot near cusp tip,train,2026-05-20
+p122_004_tooth009.jpg,p122,pre-caries,Pre-caries,False,standard_label_no_change,brown,brown patch in the interproximal area,train,2026-05-20
+p127_003_tooth002.jpg,p127,pre-caries,Pre-caries,False,standard_label_no_change,brown,brown patch on the central groove and fissures,train,2026-05-20
+p127_003_tooth003.jpg,p127,pre-caries,Pre-caries,False,standard_label_no_change,brown,brown patch on the central groove and fissures,train,2026-05-20
+p127_003_tooth010.jpg,p127,pre-caries,Pre-caries,False,standard_label_no_change,chalky,early demineralisation on the central groove and fissures,train,2026-05-20
+p132_006_tooth005.jpg,p132,pre-caries,Pre-caries,False,standard_label_no_change,chalky,early demineralisation on the lingual fissures,train,2026-05-20
+p132_006_tooth006.jpg,p132,pre-caries,Pre-caries,False,standard_label_no_change,chalky,early demineralisation on the central groove,train,2026-05-20
+p136_003_tooth001.jpg,p136,pre-caries,Pre-caries,False,standard_label_no_change,"brown, fill, stain",early demineralisation on the central groove,train,2026-05-20
+p136_003_tooth018.jpg,p136,pre-caries,Pre-caries,False,standard_label_no_change,"brown, stain",central restoration surrounded by brown patched fissures suggestive of early demineralisation,train,2026-05-20
+p147_001_tooth004.jpg,p147,pre-caries,Pre-caries,False,standard_label_no_change,chalky,central restoration surrounded by brown patched fissures suggestive of early demineralisation,train,2026-05-20
+p147_001_tooth005.jpg,p147,pre-caries,Pre-caries,False,standard_label_no_change,chalky,early demineralisation on the central groove and fissures,train,2026-05-20
+p149_004_tooth000.jpg,p149,pre-caries,Pre-caries,False,standard_label_no_change,chalky,early demineralisation on the central groove and fissures,train,2026-05-20
+p149_004_tooth001.jpg,p149,pre-caries,Pre-caries,False,standard_label_no_change,brown,brown patch on the central groove and fissures,train,2026-05-20
+p149_004_tooth004.jpg,p149,pre-caries,Pre-caries,False,standard_label_no_change,brown,brown patch on the central groove,train,2026-05-20
+p161_002_tooth000.jpg,p161,pre-caries,Pre-caries,False,standard_label_no_change,"brown, stain",brown patch on the central groove ,train,2026-05-20
+p161_002_tooth002.jpg,p161,pre-caries,Pre-caries,False,standard_label_no_change,brown,brown patch on fissures and grooves with stains also present,train,2026-05-20
+p177_002_tooth002.jpg,p177,pre-caries,Pre-caries,False,standard_label_no_change,"chalky, stain","brown patch on the proximal area, early deminerlisation cannot be excluded",train,2026-05-20
+p177_002_tooth003.jpg,p177,pre-caries,Pre-caries,False,standard_label_no_change,chalky,early demineralisation on the central groove and brown patch in the proximal area,train,2026-05-20
+p177_002_tooth013.jpg,p177,pre-caries,Pre-caries,False,standard_label_no_change,brown,brown patch over the interproximal area,train,2026-05-20
+p177_006_tooth010.jpg,p177,pre-caries,Pre-caries,False,standard_label_no_change,brown,brown patch over the lingual fissure,train,2026-05-20
+p178_005_tooth000.jpg,p178,pre-caries,Pre-caries,False,standard_label_no_change,"brown, stain",brown patch over the lingual fissure and stain on the cervical area,train,2026-05-20
+p178_005_tooth001.jpg,p178,pre-caries,Pre-caries,False,standard_label_no_change,"brown, stain","brown patch over pits and fissures, early demineralisation cannot be excluded",train,2026-05-20
+p179_002_tooth008.jpg,p179,pre-caries,Pre-caries,False,standard_label_no_change,"chalky, brown, stain",early demineralisation on the fissures and pits,train,2026-05-20
+p179_002_tooth010.jpg,p179,pre-caries,Pre-caries,False,standard_label_no_change,"brown, fill",central restoration surrounded by brown patched fissures suggestive of early demineralisation,train,2026-05-20
+p185_001_tooth002.jpg,p185,pre-caries,Pre-caries,False,standard_label_no_change,"brown, stain","brown patch over cervical and proximal area, demineralisation cannot be excluded",val,2026-05-20
+p185_001_tooth009.jpg,p185,pre-caries,Pre-caries,False,standard_label_no_change,chalky,chalky early demineralisation spot near cervical area,val,2026-05-20
+p187_001_tooth008.jpg,p187,pre-caries,Pre-caries,False,standard_label_no_change,brown,"brown patch over fissures and grooves, findings cannot be confirmed due to poor quality of image",val,2026-05-20
+p187_002_tooth008.jpg,p187,pre-caries,Pre-caries,False,standard_label_no_change,brown,brown patch over central groove,val,2026-05-20
+p189_002_tooth003.jpg,p189,pre-caries,Pre-caries,False,standard_label_no_change,chalky,early demineralisation on the lingual groove,train,2026-05-20
+p189_002_tooth004.jpg,p189,pre-caries,Pre-caries,False,standard_label_no_change,"chalky, stain",early demineralisation on the central groove and brown patch in the proximal area,train,2026-05-20
+p189_003_tooth000.jpg,p189,pre-caries,Pre-caries,False,standard_label_no_change,chalky,early demineralisation on the proximal groove,train,2026-05-20
+p189_003_tooth001.jpg,p189,pre-caries,Pre-caries,False,standard_label_no_change,chalky,early demineralisation in the proximal grooves,train,2026-05-20
+p212_001_tooth004.jpg,p212,pre-caries,Pre-caries,False,standard_label_no_change,"brown, stain",stained tooth with brown patch near the stained restoration margin ,train,2026-05-20
+p212_005_tooth001.jpg,p212,pre-caries,Pre-caries,False,standard_label_no_change,"chalky, stain",early demineralisation on the proximal grooves and buccal cusp area,train,2026-05-20
+p218_009_tooth000.jpg,p218,pre-caries-actually caries,Caries,True,cavitation_visible_at_crop_scale,"brown, defect",cavitation on the proximal fissure along with brown patch on the central groove,train,2026-05-20
+p218_009_tooth001.jpg,p218,precaries-actually caries,Caries,True,cavitation_visible_at_crop_scale,"chalky, defect",cavitation in the proximal pit with chalky spots near by,train,2026-05-20
+p218_010_tooth002.jpg,p218,pre-caries-actually caries,Caries,True,cavitation_visible_at_crop_scale,"brown, defect",cavitation on the proximal fissure along with brown patch on the central groove,train,2026-05-20
+p220_001_tooth011.jpg,p220,pre-caries,Pre-caries,False,standard_label_no_change,brown,early demineralisation on the central groove and fissures. image obscured by heavy saliva contaminat,train,2026-05-20
+p220_002_tooth002.jpg,p220,pre-caries,Pre-caries,False,standard_label_no_change,"brown, stain",early demineralisation on the central groove and fissures,train,2026-05-20
+p222_002_tooth002.jpg,p222,pre-caries,Pre-caries,False,standard_label_no_change,chalky,chalky spots near the cervical area,train,2026-05-20
+p222_002_tooth003.jpg,p222,pre-caries,Pre-caries,False,standard_label_no_change,chalky,early demineralisation near the cervical area,train,2026-05-20
+p240_001_tooth003.jpg,p240,pre-caries,Pre-caries,False,standard_label_no_change,"brown, fill, stain",central restoration surrounded by brown patched pits and fissures suggestive of early demineralisati,train,2026-05-20
+p240_001_tooth006.jpg,p240,pre-caries,Pre-caries,False,standard_label_no_change,"brown, fill, stain",central stained restoration with  brown patch on the proximal fissure ,train,2026-05-20
+p241_001_tooth012.jpg,p241,pre-caries-actually caries,Caries,True,cavitation_visible_at_crop_scale,defect,cavitation in the occlusal fissures with heavy saliva obscured image,train,2026-05-20
+p241_001_tooth013.jpg,p241,pre-caries-actually caries,Caries,True,cavitation_visible_at_crop_scale,defect,cavity in the central groove,train,2026-05-20
+p241_001_tooth014.jpg,p241,pre-caries-actually caries,Caries,True,cavitation_visible_at_crop_scale,defect,cavity on the central fissure and pits,train,2026-05-20
+p241_003_tooth002.jpg,p241,pre-caries-actually caries,Caries,True,cavitation_visible_at_crop_scale,defect,cavity over central pits and fissures,train,2026-05-20
+p259_001_tooth003.jpg,p259,pre-caries,Pre-caries,False,standard_label_no_change,chalky,early demineralisation on the central groove,train,2026-05-20
+p259_003_tooth012.jpg,p259,pre-caries,Pre-caries,False,standard_label_no_change,chalky,early demineralisation on the central groove,train,2026-05-20
+p266_003_tooth017.jpg,p266,pre-caries-actually decolor,Decolor,True,stain_pattern_at_crop_scale,stain,opaque white and brown stain over the cervical area in what appears to be intrinsic discoloration,train,2026-05-20
+p266_003_tooth018.jpg,p266,pre-caries,Pre-caries,False,standard_label_no_change,"brown, stain",stained tooth with brown patches over occlusal fissures and proximal areas,train,2026-05-20
+p269_005_tooth010.jpg,p269,pre-caries,Pre-caries,False,standard_label_no_change,"brown, stain",early demineralisation on the central groove and proximal area on a stained tooth,train,2026-05-20
+p269_005_tooth011.jpg,p269,pre-caries,Pre-caries,False,standard_label_no_change,"chalky, stain",stained tooth with early demineralisation,train,2026-05-20
+p281_001_tooth001.jpg,p281,pre-caries,Pre-caries,False,standard_label_no_change,chalky,early demineralisation on the proximal area,train,2026-05-20
+p281_005_tooth010.jpg,p281,pre-caries,Pre-caries,False,standard_label_no_change,brown,brown patches over occlusal and cervical area,train,2026-05-20
+p283_004_tooth000.jpg,p283,pre-caries,Pre-caries,False,standard_label_no_change,chalky,early demineralisation on the central groove,train,2026-05-20
+p283_004_tooth001.jpg,p283,pre-caries,Pre-caries,False,standard_label_no_change,chalky,early demineralisation on the central groove,train,2026-05-20
+p283_005_tooth003.jpg,p283,pre-caries,Pre-caries,False,standard_label_no_change,chalky,early demineralisation on the lingual groove,train,2026-05-20
+p283_005_tooth005.jpg,p283,pre-caries,Pre-caries,False,standard_label_no_change,brown,brown spot over lingual surface,train,2026-05-20
+p284_001_tooth010.jpg,p284,pre-caries,Pre-caries,False,standard_label_no_change,chalky,chalky spots near the cervical area,train,2026-05-20
+p284_002_tooth002.jpg,p284,pre-caries,Pre-caries,False,standard_label_no_change,"brown, stain",stained tooth with brown patches over occlusal fissures and proximal areas,train,2026-05-20
+p285_001_tooth013.jpg,p285,pre-caries,Pre-caries,False,standard_label_no_change,"brown, stain",brown patch over the cervical area,train,2026-05-20
+p285_002_tooth001.jpg,p285,pre-caries,Pre-caries,False,standard_label_no_change,brown,brown patch over the central fissure,train,2026-05-20
+p285_002_tooth002.jpg,p285,pre-caries,Pre-caries,False,standard_label_no_change,brown,brown patch over the central fissure,train,2026-05-20
+p286_002_tooth000.jpg,p286,pre-caries,Pre-caries,False,standard_label_no_change,"chalky, stain",early demineralisation on the lingual groove and proximal area,train,2026-05-20
+p286_007_tooth000.jpg,p286,pre-caries,Pre-caries,False,standard_label_no_change,"brown, stain",stained tooth with brown patches over occlusal fissures ,train,2026-05-20

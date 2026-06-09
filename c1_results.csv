@@ -1,0 +1,11 @@
+Method,Normal F1,Pre-caries F1,Caries F1,Decolor F1,Weighted F1,Kappa
+Image only (BiomedCLIP),0.522,0.548,0.4,0.506,0.507,0.331
+Text: checkbox only (BioBERT),0.989,0.892,1.0,0.91,0.938,0.911
+Text: note only (BioBERT),0.918,0.89,0.98,0.925,0.921,0.891
+Text: structured (BioBERT),0.957,0.913,0.98,0.926,0.938,0.905
+Text: structured (PubMedBERT),0.973,0.933,0.99,0.927,0.949,0.907
+FG features (checkbox vector),1.0,0.918,1.0,0.939,0.957,0.942
+Image + FG text (CLIP + BioBERT),0.957,0.913,0.98,0.918,0.935,0.893
+Image + FG text (CLIP + PubMedBERT),0.973,0.924,0.99,0.918,0.944,0.906
+Full fusion (CLIP + FG + BioBERT),1.0,0.897,0.98,0.923,0.944,0.927
+Full fusion (CLIP + FG + PubMedBERT),1.0,0.934,0.99,0.94,0.961,0.947

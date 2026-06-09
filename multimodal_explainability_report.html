@@ -1,0 +1,306 @@
+
+<html>
+<head>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: #F8F7F4; padding: 20px; }
+        table { border-collapse: collapse; width: 100%; background-color: white; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+        th, td { border: 1px solid #E8E5DF; padding: 12px; text-align: left; vertical-align: top; }
+        th { background-color: #2D6A4F; color: white; font-weight: bold; }
+        .score { font-size: 18px; font-weight: bold; color: #C1392B; }
+        img { border-radius: 4px; box-shadow: 0 1px 3px rgba(0,0,0,0.2); }
+    </style>
+</head>
+<body>
+    <h2>Multimodal Space Validation Report</h2>
+    <p>This table sorts crops by how mathematically close their combined Image+Text embedding is to the ideal "Centroid" of their diagnosed class. A higher score means the multimodal space strongly agrees with the clinical diagnosis.</p>
+    <table>
+        <tr>
+            <th width="150">Intraoral Image</th>
+            <th width="120">Gross Label</th>
+            <th width="150">Multimodal Similarity<br>(Cosine Math)</th>
+            <th>Structured Clinical Text (BioBERT Input)</th>
+        </tr>
+
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p001_002_tooth001.jpg" width="140"></td>
+            <td><b>Caries</b></td>
+            <td class="score">0.547</td>
+            <td>Fine-grain features identified: defect. Recommended action: restore. Carious cavitation(brown black) visible in the occlusal surface of the tooth, along the central groove and pit. Signs of interproximal cavities also visible.</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p178_005_tooth002.jpg" width="140"></td>
+            <td><b>Caries</b></td>
+            <td class="score">0.527</td>
+            <td>Fine-grain features identified: defect, stain. Recommended action: restore. central occlusal groove with cervical staining(wothout surface integrity loss) present.</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p064_001_tooth000.jpg" width="140"></td>
+            <td><b>Caries</b></td>
+            <td class="score">0.527</td>
+            <td>Fine-grain features identified: defect, fill, stain. Recommended action: restore. discolored cervical restoration with inadequate margins and secondary caries along with grey shadow in interproximal surface.</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p021_004_tooth008.jpg" width="140"></td>
+            <td><b>Caries</b></td>
+            <td class="score">0.521</td>
+            <td>Fine-grain features identified: defect, wear. Recommended action: restore. grey shadow from dentinal caries visible on the proximal surface of the incisor with attrited incisal edge.</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p021_003_tooth007.jpg" width="140"></td>
+            <td><b>Caries</b></td>
+            <td class="score">0.493</td>
+            <td>Fine-grain features identified: defect, stain, wear. Recommended action: restore. grey shadow suggestive of dentinal involvement, visible on the labio-proximal surface of the incisor, with its incisal edge with attrition and extrinisc staining .</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p056_003_tooth003.jpg" width="140"></td>
+            <td><b>Caries</b></td>
+            <td class="score">0.491</td>
+            <td>Fine-grain features identified: chalky, defect, wear. Recommended action: restore. cavitation on the lingual fissures and pits with wear facets</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p039_001_tooth015.jpg" width="140"></td>
+            <td><b>Caries</b></td>
+            <td class="score">0.446</td>
+            <td>Fine-grain features identified: chalky, defect. Recommended action: restore. cavitation on the cervical margin of the tooth surrounded by chalky white deminerlisation</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p092_002_tooth003.jpg" width="140"></td>
+            <td><b>Caries</b></td>
+            <td class="score">0.440</td>
+            <td>Fine-grain features identified: defect, fill, stain. Recommended action: refer. occlusal restoration with a brown spot in the central groove present. A proximal restoration with overhanging margin also present which is suspicious of secondary caries. Might need an x-ray to confrom carious activity.</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p085_003_tooth004.jpg" width="140"></td>
+            <td><b>Caries</b></td>
+            <td class="score">0.380</td>
+            <td>Fine-grain features identified: defect, fill. Recommended action: restore. secondary caries cavitation on triangular fossa of the proximal area.</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p092_002_tooth019.jpg" width="140"></td>
+            <td><b>Caries</b></td>
+            <td class="score">0.304</td>
+            <td>Fine-grain features identified: defect. Recommended action: restore. cavitation on lingual fissures</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p136_003_tooth005.jpg" width="140"></td>
+            <td><b>Decolor</b></td>
+            <td class="score">0.497</td>
+            <td>Fine-grain features identified: stain. Recommended action: preventive. stain on the lingual surface of tooth and incisal edge</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p269_005_tooth001.jpg" width="140"></td>
+            <td><b>Decolor</b></td>
+            <td class="score">0.479</td>
+            <td>Fine-grain features identified: stain. Recommended action: preventive. completely stained tooth with cemented orthodontic wire</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p136_001_tooth004.jpg" width="140"></td>
+            <td><b>Decolor</b></td>
+            <td class="score">0.475</td>
+            <td>Fine-grain features identified: brown, fill, stain. Recommended action: refer. heavily occlusaly restored tooth with stained margins</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p218_009_tooth015.jpg" width="140"></td>
+            <td><b>Decolor</b></td>
+            <td class="score">0.458</td>
+            <td>Fine-grain features identified: stain. Recommended action: monitor. metal abutment for prosthetic implant placement</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p098_002_tooth000.jpg" width="140"></td>
+            <td><b>Decolor</b></td>
+            <td class="score">0.376</td>
+            <td>Fine-grain features identified: stain. Recommended action: monitor. mild stain seems to be present in the cervical surface of tooth</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p212_003_tooth020.jpg" width="140"></td>
+            <td><b>Decolor</b></td>
+            <td class="score">0.358</td>
+            <td>Fine-grain features identified: stain. Recommended action: monitor. staining on the cervical and proximal side</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p045_002_tooth002.jpg" width="140"></td>
+            <td><b>Decolor</b></td>
+            <td class="score">0.323</td>
+            <td>Fine-grain features identified: fill, stain. Recommended action: monitor. discoloration present around margins of occlusally restored tooth</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p056_003_tooth010.jpg" width="140"></td>
+            <td><b>Decolor</b></td>
+            <td class="score">0.322</td>
+            <td>Fine-grain features identified: fill, stain, wear. Recommended action: refer. stained tooth with multiple restorations and wear facets.</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p281_001_tooth000.jpg" width="140"></td>
+            <td><b>Decolor</b></td>
+            <td class="score">0.299</td>
+            <td>Fine-grain features identified: brown. Recommended action: preventive. brown spot othe proximal-incisal angle</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p132_006_tooth014.jpg" width="140"></td>
+            <td><b>Decolor</b></td>
+            <td class="score">0.279</td>
+            <td>Fine-grain features identified: stain. Recommended action: preventive. discoloration suggestive of suprgingival calculus visible</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p122_002_tooth005.jpg" width="140"></td>
+            <td><b>Normal</b></td>
+            <td class="score">0.801</td>
+            <td>No fine-grain features identified. Recommended action: monitor. no surface deformity or pathology detected visually</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p220_001_tooth000.jpg" width="140"></td>
+            <td><b>Normal</b></td>
+            <td class="score">0.778</td>
+            <td>No fine-grain features identified. Recommended action: monitor. no surface deformity or pathology detected visually</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p161_006_tooth003.jpg" width="140"></td>
+            <td><b>Normal</b></td>
+            <td class="score">0.774</td>
+            <td>No fine-grain features identified. Recommended action: monitor. no surface deformity or pathology detected visually</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p178_007_tooth010.jpg" width="140"></td>
+            <td><b>Normal</b></td>
+            <td class="score">0.758</td>
+            <td>No fine-grain features identified. Recommended action: monitor. no surface deformity or pathology detected visually</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p112_003_tooth007.jpg" width="140"></td>
+            <td><b>Normal</b></td>
+            <td class="score">0.750</td>
+            <td>No fine-grain features identified. Recommended action: monitor. no surface deformity or pathology detected visually</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p283_003_tooth003.jpg" width="140"></td>
+            <td><b>Normal</b></td>
+            <td class="score">0.736</td>
+            <td>No fine-grain features identified. Recommended action: monitor. no surface deformity or pathology detected visually</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p085_001_tooth008.jpg" width="140"></td>
+            <td><b>Normal</b></td>
+            <td class="score">0.680</td>
+            <td>No fine-grain features identified. Recommended action: monitor. no surface deformity or pathology detected visually</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p077_003_tooth018.jpg" width="140"></td>
+            <td><b>Normal</b></td>
+            <td class="score">0.664</td>
+            <td>No fine-grain features identified. Recommended action: monitor. no surface deformity or pathology detected visually</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p269_004_tooth013.jpg" width="140"></td>
+            <td><b>Normal</b></td>
+            <td class="score">0.658</td>
+            <td>No fine-grain features identified. Recommended action: monitor. no surface deformity or pathology detected visually</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p064_003_tooth004.jpg" width="140"></td>
+            <td><b>Normal</b></td>
+            <td class="score">0.657</td>
+            <td>No fine-grain features identified. Recommended action: monitor. no surface deformity or pathology detected visually</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p136_003_tooth001.jpg" width="140"></td>
+            <td><b>Pre-caries</b></td>
+            <td class="score">0.522</td>
+            <td>Fine-grain features identified: brown, fill, stain. Recommended action: preventive. early demineralisation on the central groove</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p285_002_tooth004.jpg" width="140"></td>
+            <td><b>Pre-caries</b></td>
+            <td class="score">0.519</td>
+            <td>Fine-grain features identified: chalky. Recommended action: preventive. chalky yellowish spot seems to be present in the proximal area- hence early demineralisation cannot be excluded</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p149_004_tooth001.jpg" width="140"></td>
+            <td><b>Pre-caries</b></td>
+            <td class="score">0.502</td>
+            <td>Fine-grain features identified: brown. Recommended action: preventive. brown patch on the central groove and fissures</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p179_002_tooth005.jpg" width="140"></td>
+            <td><b>Pre-caries</b></td>
+            <td class="score">0.492</td>
+            <td>Fine-grain features identified: brown, wear. Recommended action: restore. brown patch on the lingual fissures with cusp edge attrited. early demineralisation cannot be excluded.</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p012_002_tooth007.jpg" width="140"></td>
+            <td><b>Pre-caries</b></td>
+            <td class="score">0.486</td>
+            <td>Fine-grain features identified: chalky. Recommended action: preventive. early demineralisation in the central groove</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p187_001_tooth008.jpg" width="140"></td>
+            <td><b>Pre-caries</b></td>
+            <td class="score">0.469</td>
+            <td>Fine-grain features identified: brown. Recommended action: preventive. brown patch over fissures and grooves, findings cannot be confirmed due to poor quality of image</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p097_001_tooth001.jpg" width="140"></td>
+            <td><b>Pre-caries</b></td>
+            <td class="score">0.443</td>
+            <td>Fine-grain features identified: brown, stain. Recommended action: refer. tooth looks stained.  picture quality so poor that no other pathology can be confirmed. buccal pit and proximal carious demineralisation cannot be excluded.</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p069_002_tooth000.jpg" width="140"></td>
+            <td><b>Pre-caries</b></td>
+            <td class="score">0.431</td>
+            <td>Fine-grain features identified: brown, fill. Recommended action: preventive. brown patch over the central fissure with a stained proximal restoration</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p187_002_tooth006.jpg" width="140"></td>
+            <td><b>Pre-caries</b></td>
+            <td class="score">0.398</td>
+            <td>Fine-grain features identified: brown, fill. Recommended action: preventive. near the restorations there seems to be dark brown spot. Cannot make out if its an underlying dark shadow from dentinal caries or not since the rest of the tooth appears to be adequately restored. but early demineralisation cannot be ruled out.</td>
+        </tr>
+    
+        <tr>
+            <td><img src="/Nasbackup/lab_nirmal/neena/datasets/finegrain_alpha/all_images/p212_001_tooth004.jpg" width="140"></td>
+            <td><b>Pre-caries</b></td>
+            <td class="score">0.258</td>
+            <td>Fine-grain features identified: brown, stain. Recommended action: preventive. stained tooth with brown patch near the stained restoration margin</td>
+        </tr>
+    
+    </table>
+</body>
+</html>

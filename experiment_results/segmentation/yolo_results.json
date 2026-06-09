@@ -1,0 +1,14 @@
+{
+  "YOLOv8n-seg": {
+    "map50_M": 0.10779737194110096,
+    "map5095_M": 0.04310958840757294,
+    "map50_B": 0.17745521358822944,
+    "weights": "/data1/neena/finegrain_alpha_experiments/experiment_results/segmentation/YOLOv8n-seg/weights/best.pt"
+  },
+  "YOLOv8s-seg": {
+    "map50_M": 0.06630103807870837,
+    "map5095_M": 0.031065982835158667,
+    "map50_B": 0.19597384818340702,
+    "weights": "/data1/neena/finegrain_alpha_experiments/experiment_results/segmentation/YOLOv8s-seg/weights/best.pt"
+  }
+}

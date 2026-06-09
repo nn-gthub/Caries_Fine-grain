@@ -1,0 +1,61 @@
+ablation.py:147:plt.savefig("exp1a_knockout.png", dpi=150, bbox_inches="tight", facecolor="#f8f4ef")
+ablation.py:161:plt.savefig("exp1b_incremental.png", dpi=150, bbox_inches="tight", facecolor="#f8f4ef")
+analysis_and_plots.py:61:    'savefig.dpi':      200,
+analysis_and_plots.py:62:    'savefig.bbox':     'tight',
+analysis_and_plots.py:63:    'savefig.facecolor': PAL['bg'],
+analysis_and_plots.py:471:plt.savefig(PLOT_DIR/'fig1_main_results.png')
+analysis_and_plots.py:472:plt.savefig(PLOT_DIR/'fig1_main_results.pdf')
+analysis_and_plots.py:536:plt.savefig(PLOT_DIR/'fig2_feature_analysis.png')
+analysis_and_plots.py:537:plt.savefig(PLOT_DIR/'fig2_feature_analysis.pdf')
+analysis_and_plots.py:611:    plt.savefig(PLOT_DIR/'fig3_semantic_space.png')
+analysis_and_plots.py:612:    plt.savefig(PLOT_DIR/'fig3_semantic_space.pdf')
+analysis_and_plots.py:696:plt.savefig(PLOT_DIR/'fig4_brown_boundary.png')
+analysis_and_plots.py:697:plt.savefig(PLOT_DIR/'fig4_brown_boundary.pdf')
+analysis_and_plots.py:781:plt.savefig(PLOT_DIR/'fig5_pipeline_diagram.png', dpi=200)
+analysis_and_plots.py:782:plt.savefig(PLOT_DIR/'fig5_pipeline_diagram.pdf')
+build_master_summary.py:142:plt.savefig("wrapup_master_summary_COMPLETE.png", dpi=150, bbox_inches="tight", facecolor="#f8f4ef")
+clinical_analysis.py:56:    'savefig.dpi':      200,
+clinical_analysis.py:57:    'savefig.bbox':     'tight',
+clinical_analysis.py:58:    'savefig.facecolor': PAL['bg'],
+clinical_analysis.py:276:    plt.savefig(PLOT_DIR/'fig_semantic_space_all.png')
+clinical_analysis.py:277:    plt.savefig(PLOT_DIR/'fig_semantic_space_all.pdf')
+clinical_analysis.py:341:    plt.savefig(PLOT_DIR/'fig_semantic_space_3class.png')
+clinical_analysis.py:342:    plt.savefig(PLOT_DIR/'fig_semantic_space_3class.pdf')
+clinical_analysis.py:489:plt.savefig(PLOT_DIR/'fig_pca_analysis.png')
+clinical_analysis.py:490:plt.savefig(PLOT_DIR/'fig_pca_analysis.pdf')
+clinical_analysis.py:578:plt.savefig(PLOT_DIR/'fig_caries_spectrum.png')
+clinical_analysis.py:579:plt.savefig(PLOT_DIR/'fig_caries_spectrum.pdf')
+clip_feature_cam.py:122:plt.savefig('c1_plot6_feature_cam.png', dpi=150, bbox_inches='tight', facecolor='#F8F7F4')
+feature_importance.py:95:plt.savefig('c1_plot5_feature_importance.png', dpi=150, bbox_inches='tight', facecolor='#F8F7F4')
+fewshot.py:154:plt.savefig("exp3_fewshot_curves.png", dpi=150, bbox_inches="tight", facecolor="#f8f4ef")
+fewshot.py:176:plt.savefig("exp3_fewshot_gap.png", dpi=150, bbox_inches="tight", facecolor="#f8f4ef")
+finetune_c_only.py:359:plt.savefig(RESULTS_DIR / 'finetune_curves.png', dpi=150,
+finetune_encoders.py:611:plt.savefig(RESULTS_DIR / 'finetune_curves.png', dpi=150,
+fusion_with_predictions.py:552:plt.savefig(RESULTS_DIR/'plot_fusion_comparison.png', dpi=150,
+fusion_with_predictions.py:593:    plt.savefig(RESULTS_DIR/'plot_confusion_comparison.png', dpi=150,
+image_map_preview.py:185:plt.savefig('preview_image_map.png', dpi=150, bbox_inches='tight', facecolor=PAL['bg'])
+master_experiments_backup.py:744:plt.savefig(RESULTS_DIR/'plot_main_results.png', dpi=150,
+master_experiments_backup.py:777:plt.savefig(RESULTS_DIR/'plot_confusion.png', dpi=150,
+master_experiments_backup.py:807:plt.savefig(RESULTS_DIR/'plot_knockout.png', dpi=150,
+master_experiments_backup.py:830:plt.savefig(RESULTS_DIR/'plot_incremental.png', dpi=150,
+master_experiments_backup.py:861:plt.savefig(RESULTS_DIR/'plot_test_results.png', dpi=150,
+master_experiments.py:756:plt.savefig(RESULTS_DIR/'plot_main_results.png', dpi=150,
+master_experiments.py:789:plt.savefig(RESULTS_DIR/'plot_confusion.png', dpi=150,
+master_experiments.py:819:plt.savefig(RESULTS_DIR/'plot_knockout.png', dpi=150,
+master_experiments.py:842:plt.savefig(RESULTS_DIR/'plot_incremental.png', dpi=150,
+master_experiments.py:874:plt.savefig(RESULTS_DIR/'plot_test_results.png', dpi=150,
+multimodal_fusion.py:592:plt.savefig('c1_plot1_results.png', dpi=150,
+multimodal_fusion.py:637:plt.savefig('c1_plot2_confusion.png', dpi=150,
+multimodal_fusion.py:702:plt.savefig('c1_plot3_similarity.png', dpi=150,
+multimodal_fusion.py:771:plt.savefig('c1_plot4_umap.png', dpi=150,
+multimodal_fusion.py:863:plt.savefig('c1_plot5_shap.png', dpi=150,
+multimodal_fusion.py:920:plt.savefig('c1_plot6_fg_mapping.png', dpi=150,
+plot_semantic_similarity.py:137:plt.savefig('semantic_alignment_plots.png', dpi=150, bbox_inches='tight', facecolor=PAL['bg'])
+scatter_semantic_alignment.py:163:plt.savefig('scatter_semantic_alignment.png', dpi=150, bbox_inches='tight', facecolor=PAL['bg'])
+shap_fast.py:101:plt.savefig('c1_plot5_shap.png', dpi=150, bbox_inches='tight', facecolor='white')
+shap_only.py:115:plt.savefig('c1_plot5_shap.png', dpi=150, bbox_inches='tight', facecolor='white')
+thesis_cam_grid.py:121:plt.savefig(output_name, dpi=200, bbox_inches='tight', facecolor='#F8F7F4')
+wrapup_exp.py:148:plt.savefig("wrapup_significance.png", dpi=150, bbox_inches="tight", facecolor="#f8f4ef")
+wrapup_exp.py:184:plt.savefig("wrapup_text_ablation.png", dpi=150, bbox_inches="tight", facecolor="#f8f4ef")
+wrapup_exp.py:221:plt.savefig("wrapup_master_summary.png", dpi=150, bbox_inches="tight", facecolor="#f8f4ef")
+xai_fg_gross_test.py:122:        plt.savefig(out_file, dpi=150, bbox_inches='tight')
